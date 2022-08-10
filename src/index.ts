@@ -48,6 +48,8 @@ const perimeterC = raio1.calculatePerimeter()
 console.log(`O perimetro é ${perimeterC.toFixed(2)}`)
 
 
-const contact1 = new Contact('adcere','(77) 99999-9998','sup@exemplo.com')
-//contact1.phone = '(77) 99999-9999'
+const contact1 = new Contact()
+contact1.name = 'Sidney Souza'
+contact1.email = 'test@gmail.com'
+contact1.phone = '(99) 99999-9999'
 console.log(contact1)

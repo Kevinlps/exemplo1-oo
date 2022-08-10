@@ -14,7 +14,7 @@ export default class Rectangle {
     }
 
     calculatePerimeter() {
-        return 2 * this.basis + 2 * this.heigt
+        return 2 * (this.basis + 2) * this.heigt
     }
 
     isMyyAreaBigger(otherRectangle: Rectangle): boolean {
